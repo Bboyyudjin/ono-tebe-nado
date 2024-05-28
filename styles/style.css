@@ -48,10 +48,12 @@
   margin-left: 25px;
 }
 
-.header_contacts {
+.header_contacts-list {
   grid-column: 3/4;
   display: flex;
   flex-direction: column;
+}
+.header_contacts {
   margin-left: 210px;
   margin-top: 6px;
   font-size: 18px;
