@@ -12,11 +12,15 @@
 .header_menu {
   grid-column: 1/2;
   display: flex;
-  font-size: 18px;
-  column-gap: 13px;
   align-items: center;
-  justify-content: center;
-  margin-left: 13px;
+}
+
+.header_links-list {
+  display: flex;
+  font-size: 18px;
+  column-gap: 34px;
+  margin-left: 26px;
+  margin-top: 5px;
 }
 
 .header__links-list-item {
@@ -36,22 +40,12 @@
 }
 
 .header__logo {
-  position: relative;
   grid-column: 2/3;
 }
 
 .header__logo-image {
-  position: relative;
   height: 105px;
   margin-left: 25px;
-}
-
-.logo__link {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position:absolute;
 }
 
 .header_contacts {
