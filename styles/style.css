@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.header__links-list {
+.links-list {
   display: flex;
   font-size: 18px;
   column-gap: 34px;
@@ -21,19 +21,19 @@
   margin-top: 5px;
 }
 
-.header__links-list-item {
+.links-list-item {
   list-style-type: circle;
 }
 
-.header__links-list-item__no-bullit {
+.links-list-item_no-bullit {
   list-style-type: none;
 }
 
-.header__link {
+.link {
   text-underline-offset: 4px;
 }
 
-.header__link_active {
+.link_active {
   text-decoration: none;
 }
 
@@ -46,7 +46,7 @@
   margin-left: 25px;
 }
 
-.header__contacts {
+.address {
   display: flex;
   flex-direction: column;
   margin-left: 214px;
@@ -187,15 +187,15 @@
   min-height: 563px;
 }
 
-.card__type__film {
+.card__type_film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.card__type__book {
+.card__type_book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.card__type__picture {
+.card__type_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -308,19 +308,14 @@
 .footer__links-list {
   flex-direction: column;
   text-align: center;
-  margin-left: 93px;
   margin-top: 3px;
+  margin-right: 24px;
 }
 
 .footer__socials {
   display: flex;
   justify-content: end;
   gap: 48px;
-}
-
-.social__logo {
-  border-radius: 25px;
-  border: 0 solid #000;
 }
 
 .footer__image {
